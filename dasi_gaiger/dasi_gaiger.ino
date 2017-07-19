@@ -1,6 +1,7 @@
 /* GM-couter for Dasa 
 
 Counter library: http://www.pjrc.com/teensy/td_libs_FreqCount.html
+String for ebay: DC-DC Converter 3V Step Up to 380V 300V-400V Adjustable Voltage Booster Inverter
 
 Aruino 	ATmega8DIL01A 	Note
 D0 	RXD 	PD0, if you disconnect USB232R01B
@@ -8,7 +9,7 @@ D1 	TXD 	PD1, if you disconnect USB232R01B
 D2 	PD2	Digital I/Os.
 D3/PWM 	PD3
 D4 	PD4
-D5/PWM 	PD5      Counter input
+D5/PWM 	PD5      ********** Counter input
 D6/PWM 	PD6
 D7 	PD7
 D8 	PB0
@@ -20,9 +21,9 @@ D13 	PB5
 A0 	PC0 	Analog inputs.
 A1 	PC1
 A2 	PC2
-A3 	PC3
-A4 	PC4
-A5 	PC5
+A3 	PC3  
+A4 	PC4    ************ SDA - to LCD
+A5 	PC5    ************ SCL - to LCD
 */
 
 #include <FreqCount.h>
